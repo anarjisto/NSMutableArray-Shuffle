@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/anarjisto/NSMutableArray-Shuffle"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.platform     = :ios
-
+  s.author = { "Dulio Denis" => "dulio@ddapps.co" }
   s.source       = { 
     :git => "https://github.com/anarjisto/NSMutableArray-Shuffle.git", 
     :tag => "0.4"
