@@ -11,15 +11,12 @@ Pod::Spec.new do |s|
   s.name         = "NSMutableArray-Shuffle"
   s.version      = "0.4"
   s.summary      = "A helpful category on NSMutableArray that provides a method to shuffle the array."
-  s.homepage     = "https://github.com/duliodenis/NSMutableArray-Shuffle"
+  s.homepage     = "https://github.com/anarjisto/NSMutableArray-Shuffle"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  
-  s.author       = { "Dulio Denis" => "dulio@ddapps.co" }
-
   s.platform     = :ios
 
   s.source       = { 
-    :git => "https://github.com/duliodenis/NSMutableArray-Shuffle.git", 
+    :git => "https://github.com/anarjisto/NSMutableArray-Shuffle.git", 
     :tag => "0.4"
   }
 
@@ -27,5 +24,6 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h'
   
   s.watchos.deployment_target = '2.0'
+  s.osx.deployment_target = '10.7'
 
 end
